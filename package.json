@@ -8,6 +8,9 @@
     "mocha": "^9.0.3"
   },
   "scripts": {
-    "test": "mocha --recursive tests/**/*.spec.js"
+    "test:micro": "mocha --recursive tests/micro",
+    "test:contract": "mocha --recursive tests/contract",
+    "test:acceptance": "mocha --recursive tests/acceptance",
+    "test": "mocha --recursive tests"
   }
 }
